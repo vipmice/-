@@ -74,8 +74,5 @@
     <Image Include="res\shuangzi.bmp">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="res\xiong.bmp">
-      <Filter>资源文件</Filter>
-    </Image>
   </ItemGroup>
 </Project>

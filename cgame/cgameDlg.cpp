@@ -149,8 +149,9 @@ BOOL CcgameDlg::OnInitDialog()
 
 	//建房按钮的大小调整
 	CWnd* p_Bjf;
-	p_Bjf = GetDlgItem(IDC_ks);
+	p_Bjf = GetDlgItem(idc_buttonjf);
 	p_Bjf->SetWindowPos(NULL, 0, 0, 70, 30, SWP_NOMOVE);
+	
 	
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }

@@ -10,7 +10,6 @@
 #define IDD_CHUJI                       130
 #define IDD_JianZao                     134
 #define IDB_BITMAP1                     136
-#define IDB_BITMAP2                     137
 #define IDC_EDIT1                       1000
 #define IDC_ks                          1003
 #define idc_buttonjf                    1005

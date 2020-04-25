@@ -11,5 +11,6 @@
 #include "framework.h"
 #include <afxcontrolbars.h>
 #include <afxwin.h>
+#include<iostream>
 
 #endif //PCH_H

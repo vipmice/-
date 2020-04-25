@@ -217,7 +217,6 @@
   <ItemGroup>
     <Image Include="res\cgame.ico" />
     <Image Include="res\shuangzi.bmp" />
-    <Image Include="res\xiong.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
