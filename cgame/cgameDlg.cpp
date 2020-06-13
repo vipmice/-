@@ -45,6 +45,7 @@ void CAboutDlg::DoDataExchange(CDataExchange* pDX)
 }
 
 BEGIN_MESSAGE_MAP(CAboutDlg, CDialog)
+
 END_MESSAGE_MAP()
 
 
@@ -140,6 +141,8 @@ BOOL CcgameDlg::OnInitDialog()
 	JS = 0, MFS = 0, MS = 0, GJS = 0;
 	//职业人数总和
 	RenShusum = 0;
+	
+
 
 	//砍树按钮的大小调整
 	CWnd* p_Bks;
@@ -151,8 +154,15 @@ BOOL CcgameDlg::OnInitDialog()
 	CWnd* p_Bjf;
 	p_Bjf = GetDlgItem(idc_buttonjf);
 	p_Bjf->SetWindowPos(NULL, 0, 0, 70, 30, SWP_NOMOVE);
+
+	//招募按钮的大小调整
+	CWnd* p_Bzm;
+	p_Bzm = GetDlgItem(IDC_ZhaoMu);
+	p_Bzm->SetWindowPos(NULL, 0, 0, 70, 30, SWP_NOMOVE);
 	
-	
+	//
+
+
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
 
@@ -210,6 +220,7 @@ void CcgameDlg::OnBnClickedks()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	a += 5;
+
 	CString str;
 	str.Format(_T("%d"), a);
 	ed_sl.SetWindowTextW(str);
@@ -241,7 +252,7 @@ void CcgameDlg::OnEnChangeEdit1()
 void CcgameDlg::OnBnClickedbuttonjf()
 {
 	// TODO: 在此添加控件通知处理程序代码
-	if (a <= 5)
+	if (a <= 9)
 	{
 		MessageBox(_T("没有木头你怎么建？？？？"));
 
@@ -382,3 +393,4 @@ void CcgameDlg::OnBnClickedJianzao()
 	JianZao.DoModal();
 
 }
+

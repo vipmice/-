@@ -10,6 +10,7 @@
 #define IDD_CHUJI                       130
 #define IDD_JianZao                     134
 #define IDB_BITMAP1                     136
+#define IDR_MENU1                       139
 #define IDC_EDIT1                       1000
 #define IDC_ks                          1003
 #define idc_buttonjf                    1005
@@ -29,14 +30,20 @@
 #define IDC_BUTTON1                     1019
 #define IDC_BUTTON2                     1020
 #define IDC_JianZao                     1021
+#define IDC_NC                          1022
+#define IDC_NC2                         1023
+#define IDC_NCJS                        1024
+#define IDC_MCJS                        1025
+#define ID_HELP32771                    32771
+#define ID_HELP_EXIT                    32772
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        139
-#define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1022
+#define _APS_NEXT_RESOURCE_VALUE        140
+#define _APS_NEXT_COMMAND_VALUE         32773
+#define _APS_NEXT_CONTROL_VALUE         1026
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

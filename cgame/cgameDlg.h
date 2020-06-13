@@ -38,6 +38,7 @@ public:
 	unsigned int tzmcaidan;
 	unsigned int JS, MFS, MS, GJS;
 	unsigned int RenShusum;
+
 	
 
 	CButton button_ks;
